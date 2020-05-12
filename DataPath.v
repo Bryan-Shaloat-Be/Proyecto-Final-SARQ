@@ -48,7 +48,7 @@ wire [31:0]Resultado_Cable;
 
 PC modulo1(
 .new_d(Direccion_initial),
-.use_d(PCsal)
+  .use_d(PCsal)
 );
 
 Memory_Instruction modulo2(
